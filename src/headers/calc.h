@@ -2,7 +2,6 @@
 #define CALC_H
 
 #include <stdio.h>
-#include <stdlib.h>
 
 double add(double a, double b);
 double sub(double a, double b);
