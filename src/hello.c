@@ -2,8 +2,13 @@
 #include "calc.h"
 
 int main(){
-	double x = 2.00;
-	double y = 2.00;
+	double x;
+	double y;
+
+	printf("Enter a number (decimal point allowed): ");
+	scanf("%lf", &x);
+	printf("Enter another number (decimal point allowed): ");
+	scanf("%lf", &y);
 
 	printf("Hello World!\n");
 	printf("This is Astro\n\n");
